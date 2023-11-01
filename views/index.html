@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>XVII Congreso de Ciencias Exactas - Universidad Autónoma de Aguascalientes</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"></link>
+		<link rel="stylesheet" href="./views/styles/index.css">
+	</head>
+	<body>
+		<section class="ctn">
+			<div class="ly">
+				<div class="lych">
+
+				</div>
+				<div class="lych">
+					<h4>HTML tables</h4>
+					<table style="border: 1px solid aqua;">
+						<tr>
+							<th>Nombre</th>
+							<th>Apellidos</th>
+							<th>Teléfono</th>
+							<th>Email</th>
+						</tr>
+						<tr>
+							<td>Juanito</td>
+							<td>Cardona</td>
+							<td>492 100 3040</td>
+							<td>juanito@email.com</td>
+						</tr>
+						<tr>
+							<td>Karla</td>
+							<td>Cardona</td>
+							<td>492 200 2020</td>
+							<td>karlita@email.com</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<!-- ================================================ -->
+			<!-- ================================================ -->
+			<div class="ly">
+				<div class="lych">
+					<h3>ENVÍO DEL FOMRULARIO</h3>
+					<!-- ============================ -->
+					<form id="my-form">
+						<label for="nombre">Nombre</label>
+						<input type="text" name="nombre" placeholder="nombre">
+						<br>
+						<br>
+						<label for="apellido">Apellido</label>
+						<input type="text" name="apellido" placeholder="apellido">
+						<br>
+						<br>
+						<button type="submit">Enviar</button>
+						<br>
+					</form>
+					<!-- ============================ -->
+				</div>
+				<div class="lych">
+					<h3>RESPUESTA DEL FOMRULARIO</h3>
+					<span>nombre: </span>
+					<strong id="form-nombre"></strong>
+					<br>
+					<br>
+					<span>apellido: </span>
+					<strong id="form-apellido"></strong>
+				</div>
+			</div>
+			<!-- ================================================ -->
+			<!-- ================================================ -->
+			<div class="ly">
+				<div class="lych">
+					<h3>TIPOS DE INPUTS PT. 1</h3>
+					<!-- ============================ -->
+					<form id="form">
+						<label for="nombre">Nombre</label>
+						<input type="text" name="nombre" placeholder="nombre">
+						<br>
+						<br>
+						<label for="apellido">Apellido</label>
+						<input type="text" name="apellido" placeholder="apellido">
+						<br>
+						<br>
+					</form>
+					<form id="my-form3">
+						<input type="radio" id="radio1" name="radio">
+						<label for="radio1">Opcion única 1</label>
+						<br>
+						<input type="radio" id="radio2" name="radio">
+						<label for="radio2">Opcion única 2</label>
+						<br>
+						<br>
+					</form>
+					<form id="my-form4">
+						<input type="checkbox" id="check1" name="check">
+						<label for="check1">Opcion múltiple 1</label>
+						<br>
+						<input type="checkbox" id="check2" name="check">
+						<label for="check2">Opcion múltiple 2</label>
+						<br>
+					</form>
+					<!-- ============================ -->
+				</div>
+				<div class="lych">
+					<h3>TIPOS DE INPUTS PT. 2</h3>
+					<!-- ============================ -->
+					<form id="my-form2">
+						<label>Email</label>
+						<input type="email" placeholder="email">
+						<br>
+						<br>
+						<label>Password</label>
+						<input type="password" placeholder="pass">
+						<br>
+						<br>
+						<label>Número</label>
+						<input type="nombre" placeholder="123">
+						<br>
+						<br>
+						<label>Hora</label>
+						<input type="time" placeholder="12:20">
+						<br>
+						<br>
+						<label>Fecha</label>
+						<input type="date" placeholder="12-SEP-2023">
+					</form>
+					<!-- ============================ -->
+				</div>
+			</div>
+			<!-- ================================================ -->
+			<!-- ================================================ -->
+			<div class="ly">
+				<div class="lych">
+					<h3>IMÁGENES LINDAS DE BC, CA.</h3>
+					<img src="./views/assets/bc1.jpg" width="320px" height="185px" alt="british columbia, canada" />
+					<br>
+					<img src="./views/assets/bc2.jpg" width="320px" height="185px" alt="british columbia, canada" />
+				</div>
+				<div class="lych">
+						<h3>IMÁGENES LINDAS DE QUEBÉC, CA.</h3>
+					<img src="./views/assets/qb2.jpg" width="320px" height="185px" alt="british columbia, canada" />
+					<br>
+					<img src="./views/assets/ow.jpg" width="320px" height="185px" alt="british columbia, canada" />
+				</div>
+			</div>
+			<!-- ================================================ -->
+			<!-- ================================================ -->
+			<div class="ly">
+				<div class="lych" style="background-color: #ccc;">
+					<h3>FORMULARIO DE CONTACTO</h3>
+					<form id="my-form12" class="styled-form">
+						<strong style="display: block; margin: 0 0 .5em;">Ingrese sus datos</strong>
+						<label for="check10">Nombre:</label>
+						<input type="text" id="check10" class="input" placeholder="nombre">
+						<label for="check20">Correo:</label>
+						<input type="email" id="check20" class="input" placeholder="correo electrónico">
+						<label for="check30">Mensaje:</label>
+						<textarea cols="30" rows="10" id="check30" class="tarea" placeholder="escriba su mensaje"></textarea>
+						<button type="submit" class="sendBtn">Enviar</button>
+					</form>
+				</div>
+			</div>
+			<div></div>
+			<!-- ================================================ -->
+			<!-- ================================================ -->
+		</section>
+	</body>
+	<script src="./views/scripts/index.js"></script>
+</html>
